@@ -1,0 +1,153 @@
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git config --global user.email "shokrol
+lahi76@gmail.com"
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git config --global user.name "zahrasho
+krollahi"
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git add .
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git commit -m "1"
+[master (root-commit) ea1de92] 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>gitk
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout ea1de926a798f5cbabb71dd69d
+ad7764059a9595
+Note: checking out 'ea1de926a798f5cbabb71dd69dad7764059a9595'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at ea1de92... 1
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git branch shokrollahi
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout shokrollahi
+Switched to branch 'shokrollahi'
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git add .
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git commit -m "2"
+[shokrollahi ec8cb79] 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout master
+Switched to branch 'master'
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git add .
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git commit -m "3"
+[master 8c8ffe2] 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 3.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout ec8cb7978bc3b2e6e1e8b5787e
+768594679dbc61
+Note: checking out 'ec8cb7978bc3b2e6e1e8b5787e768594679dbc61'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at ec8cb79... 2
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git branch 0890436126
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout 0890436126
+Switched to branch '0890436126'
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git add .
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git commit -m "4"
+[0890436126 79103aa] 4
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 4.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkhout shokrollahi
+git: 'checkhout' is not a git command. See 'git --help'.
+
+Did you mean this?
+        checkout
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout shokrollahi
+Switched to branch 'shokrollahi'
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git add .
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git commit -m "5"
+[shokrollahi ebdcd18] 5
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 5.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout master
+Switched to branch 'master'
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git add .
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git commit -m "6"
+[master 82ecc59] 6
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 6.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git add .
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git commit -m "7"
+[master 107f158] 7
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 7.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout shokrollahi
+Switched to branch 'shokrollahi'
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git merge 0890436126
+Merge made by the 'recursive' strategy.
+ 4.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 4.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git checkout master
+Switched to branch 'master'
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git merge shokrollahi
+Merge made by the 'recursive' strategy.
+ 2.txt | 0
+ 4.txt | 0
+ 5.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2.txt
+ create mode 100644 4.txt
+ create mode 100644 5.txt
+
+C:\Users\Sam1\Desktop\shokrollahi\azmoon>git push -u origin master
+Username for 'https://github.com': zahrashokrollahi
+Password for 'https://zahrashokrollahi@github.com':
+Counting objects: 19, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (19/19), 1.50 KiB | 0 bytes/s, done.
+Total 19 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/zahrashokrollahi/azmoon.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
